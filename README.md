@@ -52,6 +52,9 @@ ou
 $ npm run dev:server
 
 # O servidor inciará na porta:3333 - acesse http://localhost:3333 
+
+---
+Obs: No arquivo "images_view.ts", alterar o ip na url -> para o ip da sua máquina
 ```
 
 #### Iniciando o Frontend
@@ -76,6 +79,9 @@ $ npm run start
 # Vá para a pasta da aplicação Mobile
 $ cd mobile
 
+---
+Obs: No arquivo "api.ts", alterar o ip na baseURL -> para o ip da sua máquina
+
 # Instale as dependências
 $ yarn
 ou
@@ -85,13 +91,15 @@ $ npm install
 $ yarn start
 ou
 $ npm run start
+# Após rodar o comando acima, você será redirecionado para o "Metro Bundler"
 
 # Caso for rodar em um dispositivo físico:
-# Baixar o app do "Expo" na Google Play (link abaixo)
-# Após instalar o app do "Expo", você será redirecionado para o "Metro Bundler"
-# Nele vai ter um QR Code
-# Agora abra o Expo no seu celular e toque na opção Scan QR Code
-# Escaneie o QR Code e com isso o aplicativo será executado
+# Nessa tela terá um código um QR Code na parte inferior esquerda
+# Agora no seu celular baixar o app do "Expo" na Google Play (link abaixo)
+# Abra o Expo no seu celular e toque na opção Scan QR Code
+# Escaneie o QR Code  e com isso o aplicativo será executado
+---
+Obs: Para funcionar tanto o celular quanto o computador devem estar conectados na mesma rede wi-fi.
 
 # Caso for rodar em um emulador Android: (link abaixo)
 # No "Metro Blunder" tem a opção "Run on Android device/emulator"

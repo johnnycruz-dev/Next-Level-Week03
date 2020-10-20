@@ -1,4 +1,5 @@
 .env
 uploads/*
 !uploads/.gitkeep
+!uploads/1603231072046-Imagem.png
 node_modules
