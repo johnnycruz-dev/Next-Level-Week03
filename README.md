@@ -103,7 +103,7 @@ $ npm run start
 
 <a href="https://react-native.rocketseat.dev/android/emulador">Emulador Android</a>
 
-Telas da aplicação:
+### Telas da aplicação:
 
 -  Web:
 
